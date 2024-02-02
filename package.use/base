@@ -1,0 +1,10 @@
+app-admin/doas persist -pam
+gui-libs/wlroots X
+sys-auth/seatd builtin server
+media-video/pipewire sound-server pipewire-alsa
+www-client/firefox hwaccel screencast dbus -telemetry
+www-client/librewolf hwaccel screencast dbus -telemetry
+gui-wm/sway X
+media-libs/mesa vulkan vulkan-overlay
+games-util/game-device-udev-rules elogind
+net-p2p/transmission gtk
